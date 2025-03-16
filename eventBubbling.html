@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>document</title>
+        <style>
+            .box{
+                height: 54px;
+                width: 56px;
+                border: 2px solid black;
+                padding: 5px;
+                margin: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class = "container">
+            <div class = "childContainer">
+                <div class = "child">
+                    I am a child
+                </div>
+            </div>
+
+        </div>
+        <script >
+            document.querySelector(".child").addEventListener("click", (e)=>{
+                e.stopPropagation()//stopping the event bubbling i.e. the parent also gets clicked when child is clicked
+                alert("child was clicked")
+            })
+
+        </script>
+
+    </body>
+</html>
