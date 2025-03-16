@@ -1,0 +1,1 @@
+let random_num_btwn_a_and_b = Math.ceil(a + Math.random()*(b-a));
