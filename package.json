@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "demo for 1st server",
+  "main": "EpressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/nandani08/nandani_dev.git"
+  },
+  "author": "Nandani Awase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandani08/nandani_dev/issues"
+  },
+  "homepage": "https://github.com/nandani08/nandani_dev#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "global": "^4.4.0"
+  },
+  "keywords": []
+}
