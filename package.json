@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/nandani08/nandani_dev#readme",
   "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
     "express": "^4.21.2",
     "global": "^4.4.0"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "tailwindcss": "^4.0.14"
+  }
 }
